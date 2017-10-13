@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FootballerDecorator.RedCardDecorator</OriginalElement>
+  <nodes>
+    <node x="297.5" y="195.0">FootballerDecorator.FootballerDecorator</node>
+    <node x="605.0" y="446.0">FootballerDecorator.InjuryDecorator</node>
+    <node x="27.0" y="25.0">MakePlayer</node>
+    <node x="500.25" y="0.0">Footballer.Footballer</node>
+    <node x="617.5" y="209.0">Footballer.SimpleFootballer</node>
+    <node x="309.99999999999994" y="446.0">FootballerDecorator.StrikerDecorator</node>
+    <node x="0.0" y="446.0">FootballerDecorator.RedCardDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FootballerDecorator.InjuryDecorator" target="FootballerDecorator.FootballerDecorator">
+      <point x="0.0" y="-87.5" />
+      <point x="740.0" y="421.0" />
+      <point x="547.5" y="421.0" />
+      <point x="100.0" y="100.5" />
+    </edge>
+    <edge source="FootballerDecorator.FootballerDecorator" target="Footballer.Footballer">
+      <point x="0.0" y="-100.5" />
+      <point x="447.5" y="170.0" />
+      <point x="551.5" y="170.0" />
+      <point x="-51.25" y="72.5" />
+    </edge>
+    <edge source="FootballerDecorator.RedCardDecorator" target="FootballerDecorator.FootballerDecorator">
+      <point x="0.0" y="-87.5" />
+      <point x="145.0" y="421.0" />
+      <point x="347.5" y="421.0" />
+      <point x="-100.0" y="100.5" />
+    </edge>
+    <edge source="FootballerDecorator.StrikerDecorator" target="FootballerDecorator.FootballerDecorator">
+      <point x="5.6843418860808015E-14" y="-87.5" />
+      <point x="0.0" y="100.5" />
+    </edge>
+    <edge source="Footballer.SimpleFootballer" target="Footballer.Footballer">
+      <point x="0.0" y="-86.5" />
+      <point x="758.0" y="170.0" />
+      <point x="654.0" y="170.0" />
+      <point x="51.25" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="449.5" y="365.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
